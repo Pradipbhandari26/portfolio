@@ -133,11 +133,13 @@ export default function Hero() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-br from-teal-400 via-cyan-400 to-blue-500 rounded-3xl blur-2xl opacity-75 group-hover:opacity-100 transition duration-700" />
               <div className="absolute inset-0 bg-gradient-to-br from-teal-400/30 to-cyan-400/30 rounded-3xl" />
-              <img
-                src="/src/assets/Screenshot_2026-05-11_at_13.36.46.png"
-                alt={personalInfo.name}
-                className="relative w-full max-w-sm rounded-3xl shadow-2xl object-cover aspect-[3/4] border border-white/10"
-              />
+              <div className="relative w-full max-w-sm rounded-3xl shadow-2xl overflow-hidden aspect-[3/4] border border-white/10 bg-gray-900">
+                <img
+                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop"
+                  alt={personalInfo.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-gray-950/80 to-transparent rounded-3xl flex items-end p-6">
                 <div>
                   <p className="text-white font-bold text-lg">Based in Nepal</p>
