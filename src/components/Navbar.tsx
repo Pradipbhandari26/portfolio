@@ -81,7 +81,7 @@ export default function Navbar() {
           onClick={(e) => { e.preventDefault(); handleNav('#contact'); }}
           className="hidden md:inline-flex items-center px-4 py-2 rounded-md bg-teal-500 hover:bg-teal-400 text-white text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-teal-500/25"
         >
-          Hire Me
+          Contact
         </a>
 
         <button
@@ -111,7 +111,7 @@ export default function Navbar() {
               onClick={(e) => { e.preventDefault(); handleNav('#contact'); }}
               className="block text-center px-4 py-2.5 rounded-md bg-teal-500 text-white text-sm font-semibold hover:bg-teal-400 transition-all"
             >
-              Hire Me
+              Contact
             </a>
           </div>
         </div>
